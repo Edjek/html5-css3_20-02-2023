@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+a{
+    text-decoration: none;
+}
+
+.head {
+    background-color: #030028;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.head a {
+    color: #fff;
+}
+
+.head-right {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
